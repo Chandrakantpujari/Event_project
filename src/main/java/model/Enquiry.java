@@ -19,7 +19,7 @@ public class Enquiry {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sookshmas", "root", "Tiger");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/event", "root", "pentagon");
 			se = session;
 		} catch (Exception e) {
 			e.printStackTrace();
